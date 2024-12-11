@@ -15,7 +15,7 @@
 
 .heroic-banner {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     margin-bottom: 40px;
 }
 
@@ -66,7 +66,7 @@
 .cardwrapper .card-container {
     width: 100%;
     height: 350px;
-    border-radius: 24px;
+    /* border-radius: 24px; */
     background-color: #E6E0E9;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@
 }
 
 .cardwrapper h3 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .cardwrapper .card-container .cards {
@@ -179,17 +179,19 @@
         left: 8px;
     }
 }
-
 @media only screen and (max-width: 826px) {
     .heroic-banner .left-container a {
-        top: 50px;
+        top: 38px;
         left: 0px;
     }
 }
 
+
+
 @media only screen and (max-width: 769px) {
     .heroic-banner .left-container a {
-        left: -2px;
+        left: -5px;
+        top: -20px;
     }
 
     .heroic-banner .img-container {
@@ -205,7 +207,7 @@
 
 @media only screen and (max-width: 683px) {
     .heroic-banner .left-container a {
-        top: 20px;
+        top: -58px;
         left: -15px;
     }
 
@@ -216,39 +218,39 @@
 
 @media only screen and (max-width: 603px) {
     .heroic-banner .left-container a {
-        top: 22px;
+        top: -64px;
         left: -20px;
     }
 }
 
 @media only screen and (max-width: 536px) {
     .heroic-banner .left-container a {
-        top: 18px;
+        top: -68px;
         left: -25px;
     }
 }
 
 @media only screen and (max-width: 470px) {
     .heroic-banner .left-container a {
-        top: 60px;
+        top: -18px;
         left: 50%;
     }
 
     .heroic-banner .img-container {
-        height: 80vh
+        height: 70vh
     }
 }
 
 @media only screen and (max-width: 376px) {
     .heroic-banner .left-container a {
-        top: 5px;
-        left: 45%;
+        top: -32px;
+        left: 40%;
     }
 }
 
-@media only screen and (max-width: 322px) {
+@media only screen and (max-width: 342px) {
     .heroic-banner .left-container a {
-        top: 2px;
+        top: -46px;
         left: 30%;
     }
 }
